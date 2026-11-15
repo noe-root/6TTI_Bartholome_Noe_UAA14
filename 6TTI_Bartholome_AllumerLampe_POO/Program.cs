@@ -30,8 +30,7 @@
 
                 int code;
 
-                while (!int.TryParse(Console.ReadLine(), out code)
-                       || code < 1 || code > 4)
+                while (!int.TryParse(Console.ReadLine(), out code) || code < 1 || code > 4)
                 {
                     Console.Write("Code invalide. Réessayez : ");
                 }

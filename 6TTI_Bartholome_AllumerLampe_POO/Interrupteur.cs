@@ -26,10 +26,7 @@ namespace _6TTI_Bartholome_AllumerLampe_POO
         {
             if (_lampeLier == null)
             {
-                Console.WriteLine(
-                    "Aucune lampe n'est reliée à cet interrupteur."
-                );
-
+                Console.WriteLine("Aucune lampe n'est reliée à cet interrupteur.");
                 return;
             }
 
